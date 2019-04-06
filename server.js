@@ -3,6 +3,7 @@ var expressHandlebars = require("express-handlebars")
 var mongoose = require("mongoose");
 var axios = require("axios");
 var cheerio = require("cheerio");
+var logger = require("morgan");
 
 // Require all models
 var db = require("./models");
